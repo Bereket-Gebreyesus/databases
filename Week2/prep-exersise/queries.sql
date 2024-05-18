@@ -1,3 +1,5 @@
+-- Queries
+
 -- All the vegetarian recipes with potatoes
 SELECT DISTINCT r.name AS Recipe_Name
 FROM Recipe r
