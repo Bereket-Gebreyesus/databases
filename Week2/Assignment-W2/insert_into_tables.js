@@ -15,21 +15,21 @@ connection.connect((err) => {
 
     // Insert authors
     const authors = [
-        ['John Smith', 'University of Science', '1980-01-15', 12, 'M'],
-        ['Alice Johnson', 'Tech University', '1978-05-20', 8, 'F'],
-        ['Michael Brown', 'Research Institute', '1985-09-10', 10, 'M'],
+        ['John Smith', 'University of Science', '1980-01-15', 12, 'M', 1],
+        ['Alice Johnson', 'Tech University', '1978-05-20', 8, 'F', 2],
+        ['Michael Brown', 'Research Institute', '1985-09-10', 10, 'M', 2],
         ['Emily Davis', 'Data Science College', '1990-03-25', 9, 'F'],
-        ['William Wilson', 'Computer Science Institute', '1982-07-12', 11, 'M'],
-        ['Sophia Martinez', 'Engineering University', '1988-12-30', 10, 'F'],
-        ['James Taylor', 'Artificial Intelligence Lab', '1976-06-18', 15, 'M'],
+        ['William Wilson', 'Computer Science Institute', '1982-07-12', 11, 'M', 3],
+        ['Sophia Martinez', 'Engineering University', '1988-12-30', 10, 'F', 1],
+        ['James Taylor', 'Artificial Intelligence Lab', '1976-06-18', 15, 'M', 2],
         ['Olivia Anderson', 'Robotics Research Center', '1983-04-08', 13, 'F'],
-        ['Daniel Thomas', 'Mathematics Institute', '1987-11-05', 9, 'M'],
-        ['Isabella Jackson', 'Neuroscience Research Group', '1984-08-22', 11, 'F'],
+        ['Daniel Thomas', 'Mathematics Institute', '1987-11-05', 9, 'M', 3],
+        ['Isabella Jackson', 'Neuroscience Research Group', '1984-08-22', 11, 'F', 3],
         ['Benjamin White', 'Chemistry Department', '1979-10-02', 7, 'M'],
         ['Emma Harris', 'Physics Academy', '1981-02-14', 8, 'F'],
-        ['Alexander Martin', 'Biology Institute', '1986-09-29', 10, 'M'],
+        ['Alexander Martin', 'Biology Institute', '1986-09-29', 10, 'M', 2],
         ['Chloe Thompson', 'Medical School', '1989-07-07', 11, 'F'],
-        ['Ethan Garcia', 'Environmental Studies Center', '1983-12-12', 9, 'M']
+        ['Ethan Garcia', 'Environmental Studies Center', '1983-12-12', 9, 'M', 1]
     ];
 
     const insertAuthorsQuery = 'INSERT INTO authors (author_name, university, date_of_birth, h_index, gender) VALUES ?';
