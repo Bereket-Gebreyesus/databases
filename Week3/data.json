@@ -1,0 +1,13 @@
+[
+    {
+      "title": "Mountain Retreat",
+      "elements": ["mountain", "cabin", "trees"],
+      "episode_number": 1
+    },
+    {
+      "title": "Seaside Serenity",
+      "elements": ["ocean", "beach", "palm trees"],
+      "episode_number": 2
+    }
+   
+  ]
